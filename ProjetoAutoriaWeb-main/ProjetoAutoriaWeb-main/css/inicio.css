@@ -1,0 +1,170 @@
+body {
+  background: url('imgs/background.png') repeat;
+  background-size: contain;
+  font-family: 'Comic Sans MS', sans-serif;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  background-color: #8b9ed8; 
+}
+
+.mapa {
+  position: relative;
+  width: 100vw;              
+  height: 100vh;            
+  left: 0;                   
+  background-image: url("../imagens/mapafundo.png");
+  background-size: contain;  
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;         
+  display: block;
+}
+
+.area {
+  position: absolute;
+  width: 180px;
+  height: 150px;
+  border-radius: 20px;
+  background: transparent;
+  box-shadow: none;
+  text-align: center;
+  padding-top: 10px;
+  color: white;
+  font-weight: bold;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+
+.area h2 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+
+.botao {
+  display: inline-block;
+  margin: 5px;
+  transition: transform 0.2s;
+}
+
+.botao:hover {
+  transform: scale(1.1);
+}
+
+.personagem img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: white;
+  padding: 3px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+
+.grasslands {
+  background: transparent;
+  top: 70%;
+  left: 45%;
+  -webkit-text-stroke-width:1px ;
+  -webkit-text-stroke-color: rgb(145, 145, 252);
+}
+
+.piggy-mountain {
+  background: transparent;
+  top: 2%;
+  left: 40%;
+  -webkit-text-stroke-width:1px ;
+  -webkit-text-stroke-color: rgb(198, 198, 8);
+}
+
+
+.slingshot-heights {
+  background: transparent;
+  top: 58%;
+  left: 26%;
+  -webkit-text-stroke-width:1px ;
+  -webkit-text-stroke-color: rgb(187, 4, 4);
+}
+
+.towering-perch {
+  background: transparent;
+  top: 25%;
+  left: 55%;
+  -webkit-text-stroke-width:1px ;
+  -webkit-text-stroke-color: black;
+}
+
+
+.snowcapped-peaks {
+  background: transparent;
+  top: 25%;
+  left: 37%;
+  -webkit-text-stroke-width:1px ;
+  -webkit-text-stroke-color: rgb(11, 11, 237);
+}
+#texto{
+  margin: 100px;
+}
+#titulo{
+  background-color: green;
+}
+#titulo2{
+  background-color: rgb(121, 95, 41);
+  color: rgb(255, 255, 255);
+}
+#titulo3{
+  background-color: rgb(0, 0, 9);
+}
+#titulo4{
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+#titulo5{
+  background-color: rgb(12, 35, 54);
+}
+
+#vinhas {
+  position: absolute;
+  left: 0px;
+  width: 400px;
+  top: 0px;
+}
+#vinhas2 {
+  position: absolute;
+  right: 0px;
+  width: 400px;
+  top: 0px;
+}
+#arvore{
+position: absolute;
+right: 0px;
+
+}
+#arvore2{
+  position: absolute;
+  left: 0px;
+}
+#imagemcarnaval {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+#imagemcarnaval2 {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+#estrelas{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 500px;
+}
+#estrelas2{
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 500px;
+}
